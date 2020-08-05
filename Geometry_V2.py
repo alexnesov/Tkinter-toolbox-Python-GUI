@@ -10,7 +10,7 @@ getFld = Tkinter.IntVar()
 form.wm_title('File Parser')
 
 stepOne = Tkinter.LabelFrame(form, text=" 1. Enter File Details: ")
-stepOne.grid(row=0, columnspan=7, sticky='W', \
+stepOne.grid(row=0, columnspan=7, sticky='WE', \
                 padx=5, pady=5, ipadx=5, ipady=5)
 
 helpLf = Tkinter.LabelFrame(form, text=" Quick Help ")
@@ -20,11 +20,11 @@ helpLbl = Tkinter.Label(helpLf, text="Help will come - ask for it.")
 helpLbl.grid(row=0)
 
 stepTwo = Tkinter.LabelFrame(form, text=" 2. Enter Table Details: ")
-stepTwo.grid(row=2, columnspan=7, sticky='W', \
+stepTwo.grid(row=2, columnspan=7, sticky='WE', \
                 padx=5, pady=5, ipadx=5, ipady=5)
 
 stepThree = Tkinter.LabelFrame(form, text=" 3. Configure: ")
-stepThree.grid(row=3, columnspan=7, sticky='W', \
+stepThree.grid(row=3, columnspan=7, sticky='WE', \
                 padx=5, pady=5, ipadx=5, ipady=5)
 
 inFileLbl = Tkinter.Label(stepOne, text="Select the File:")
